@@ -2326,3 +2326,19 @@ right: 26px;
         margin-bottom: 0;
     }
 }
+/* 画像をレスポンシブ対応 */
+.visual-image {
+    width: 100%; /* 親要素に合わせて拡大縮小 */
+    height: auto; /* 縦横比を維持 */
+    max-width: 713px; /* PCではオリジナルサイズを維持 */
+    display: block;
+    margin: 0 auto; /* 中央寄せ */
+}
+
+/* スマホサイズで適用 */
+@media (max-width: 768px) {
+    .visual-image {
+        max-width: 90%; /* スマホでは90%の幅 */
+        height: auto;
+    }
+}
