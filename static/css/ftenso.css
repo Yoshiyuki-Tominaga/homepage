@@ -2291,3 +2291,38 @@ right: 26px;
      font-size: 1rem!important;
 }
 }
+/*20250325追加　スマホ対応*/
+/* タイトルとロゴを包むコンテナ */
+.title-logo-container {
+    display: flex;
+    flex-direction: column; /* デフォルトは縦並び (スマホ) */
+    align-items: center; /* 中央寄せ */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* タイトルのスタイル */
+.title {
+    font-size: 24px; /* 適宜調整 */
+    margin-bottom: 10px; /* タイトルとロゴの間隔 */
+}
+
+/* ロゴ画像のスタイル */
+.title-logo {
+    max-width: 150px; /* スマホでは縮小 */
+    height: auto;
+}
+
+/* PCでは横並びに */
+@media (min-width: 769px) {
+    .title-logo-container {
+        flex-direction: row; /* PCでは横並び */
+        justify-content: center; /* 水平方向に中央寄せ */
+        align-items: center;
+    }
+
+    .title {
+        margin-right: 10px; /* タイトルとロゴの間隔 */
+        margin-bottom: 0;
+    }
+}
