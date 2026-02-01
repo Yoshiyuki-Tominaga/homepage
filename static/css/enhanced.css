@@ -49,14 +49,19 @@ body#ftenso {
     text-align: center;
     margin: 3rem 0;
     padding: 0 1rem;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .visual-image {
     max-width: 100%;
+    width: auto;
     height: auto;
+    max-height: 400px;
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: contain;
 }
 
 .visual-image:hover {
@@ -75,15 +80,24 @@ body#ftenso {
 }
 
 .title {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff !important;
     margin: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 
+        0 2px 10px rgba(0, 0, 0, 0.5),
+        0 0 15px rgba(0, 0, 0, 0.3);
+    -webkit-text-fill-color: #ffffff;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.4) 0%, rgba(118, 75, 162, 0.4) 100%);
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    letter-spacing: 1px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .title-logo {
-    max-width: 100%;
+    max-width: 247px;
     height: auto;
     filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
 }
@@ -199,7 +213,18 @@ body#ftenso {
     animation-delay: 0.6s;
 }
 
-section h2.ver1,
+section h2.ver1 {
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1.2rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 section h3.ver5 {
     color: #2d3748;
     margin-bottom: 1.5rem;
@@ -211,7 +236,6 @@ section h3.ver5 {
     position: relative;
 }
 
-section h2.ver1::after,
 section h3.ver5::after {
     content: '';
     position: absolute;
@@ -236,13 +260,15 @@ section h3.ver5::after {
 }
 
 .feature-table th {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #ffffff !important;
     padding: 1.5rem 1.5rem;
     text-align: left;
     font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-text-fill-color: #ffffff;
 }
 
 .feature-table td {
@@ -434,7 +460,12 @@ section h3.ver5::after {
     }
     
     .title {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        padding: 0.6rem 1.2rem;
+    }
+    
+    .visual-image {
+        max-height: 300px;
     }
     
     .head_lead {
@@ -486,6 +517,10 @@ section h3.ver5::after {
     
     .head_lead h2 {
         font-size: 1.4rem;
+    }
+    
+    .visual-image {
+        max-height: 250px;
     }
     
     .app-link {
