@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.ftenso.com/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,9 +20,9 @@
   </url>
   <url>
     <loc>https://www.ftenso.com/receive-file/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.ftenso.com/secure-file-transfer/</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.ftenso.com/free-file-transfer/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

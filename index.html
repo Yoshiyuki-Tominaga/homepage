@@ -74,7 +74,7 @@
             "name": "Ftensoは無料で使えますか？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "はい。Ftensoは無料で利用できます。現在の主な利用条件は、最大5ファイルまで同時アップロード、最大10日間保存、最大10回までダウンロード、1ファイル最大5GBです。"
+              "text": "はい。Ftensoは無料で利用できます。現在の主な利用条件は、ファイル転送URL作成50件/月、ファイル受信URL作成10件/月、月間アップロード総量50GB、1ファイル最大5GB、最大5ファイルまで同時アップロード、最大10日間保存、1URLあたりダウンロード最大10回、受信URL1件あたり受信最大10回、アクティブURL30件まで、操作ログ保存90日です。"
             }
           },
           {
@@ -287,11 +287,17 @@
           </div>
           <div class="screen-grid screen-grid-two">
             <figure class="screen-card">
-              <img src="/static/screenshots/file-send-upload.png" alt="ファイルアップロード画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/file-send-upload.avif" type="image/avif" />
+                <img src="/static/screenshots/file-send-upload.png" width="672" height="665" alt="Ftensoのファイル転送アップロード画面。大容量ファイルを選択して送信用URLを作成できる画面" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>ファイルアップロード画面</figcaption>
             </figure>
             <figure class="screen-card">
-              <img src="/static/screenshots/file-send-url.png" alt="送信用URL生成後の画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/file-send-url.avif" type="image/avif" />
+                <img src="/static/screenshots/file-send-url.png" width="702" height="891" alt="Ftensoのファイル転送URL生成後の画面。期限、回数制限、パスワード付きでファイル共有URLを作成" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>URL生成後の画面</figcaption>
             </figure>
           </div>
@@ -305,11 +311,17 @@
           </div>
           <div class="screen-grid screen-grid-two">
             <figure class="screen-card">
-              <img src="/static/screenshots/file-receive-url.png" alt="ファイル受信URL作成後の画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/file-receive-url.avif" type="image/avif" />
+                <img src="/static/screenshots/file-receive-url.png" width="681" height="482" alt="Ftensoのファイル受信URL作成画面。相手からファイルを送ってもらう受信URLを発行" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>受信URL作成後の画面</figcaption>
             </figure>
             <figure class="screen-card">
-              <img src="/static/screenshots/file-receive-history.png" alt="ファイル受信履歴画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/file-receive-history.avif" type="image/avif" />
+                <img src="/static/screenshots/file-receive-history.png" width="672" height="444" alt="Ftensoのファイル受信履歴画面。受信ファイル、受信日時、コメントを管理できる画面" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>ファイル受信履歴</figcaption>
             </figure>
           </div>
@@ -323,15 +335,24 @@
           </div>
           <div class="screen-grid screen-grid-three">
             <figure class="screen-card">
-              <img src="/static/screenshots/file-send-history.png" alt="アップロード履歴画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/file-send-history.avif" type="image/avif" />
+                <img src="/static/screenshots/file-send-history.png" width="988" height="666" alt="Ftensoのアップロード履歴画面。ファイル転送URL、期限、ダウンロード状況を確認" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>アップロード履歴</figcaption>
             </figure>
             <figure class="screen-card">
-              <img src="/static/screenshots/mail-history.png" alt="メール送受信履歴画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/mail-history.avif" type="image/avif" />
+                <img src="/static/screenshots/mail-history.png" width="1054" height="732" alt="Ftensoのメール送受信履歴画面。ファイル転送とファイル受信の通知メール履歴を確認" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>メール送受信履歴</figcaption>
             </figure>
             <figure class="screen-card">
-              <img src="/static/screenshots/operation-log.png" alt="操作ログ画面" loading="lazy" />
+              <picture>
+                <source srcset="/static/screenshots/operation-log.avif" type="image/avif" />
+                <img src="/static/screenshots/operation-log.png" width="1032" height="742" alt="Ftensoの操作ログ画面。ファイル送受信、URL作成、ログインなどの操作履歴を確認" loading="lazy" decoding="async" />
+              </picture>
               <figcaption>操作ログ</figcaption>
             </figure>
           </div>
@@ -461,7 +482,7 @@
           <a class="seo-link-card" href="/receive-file/">
             <span>受信URL</span>
             <strong>ファイル受信URL</strong>
-            <p>相手からファイルを送ってもらえます。</p>
+            <p>申込書、資料、制作物などを相手から送ってもらえます。</p>
           </a>
           <a class="seo-link-card" href="/secure-file-transfer/">
             <span>安全</span>
@@ -597,10 +618,16 @@
             <p>無料提供中の主な利用条件です。</p>
 
             <ul class="check-list spec-list">
+              <li>ファイル転送URL作成 50件/月</li>
+              <li>ファイル受信URL作成 10件/月</li>
+              <li>月間アップロード総量 50GB/月</li>
+              <li>アクティブURL 送信・受信合計30件まで</li>
               <li>最大5ファイルまで同時アップロード</li>
               <li>最大10日間保存</li>
-              <li>最大10回までダウンロード</li>
+              <li>1URLあたり最大10回までダウンロード</li>
+              <li>受信URL1件あたり最大10回まで受信</li>
               <li>1ファイル最大5GBまで対応</li>
+              <li>操作ログ保存 90日</li>
             </ul>
 
             <p class="note">※仕様は今後変更される場合があります。</p>
@@ -652,7 +679,7 @@
         <div class="faq-grid">
           <article class="faq-card">
             <h3>Ftensoは無料で使えますか？</h3>
-            <p>はい。Ftensoは無料で利用できます。現在の主な利用条件は、最大5ファイルまで同時アップロード、最大10日間保存、最大10回までダウンロード、1ファイル最大5GBです。</p>
+            <p>はい。Ftensoは無料で利用できます。現在の主な利用条件は、ファイル転送URL作成50件/月、ファイル受信URL作成10件/月、月間アップロード総量50GB、1ファイル最大5GB、最大5ファイルまで同時アップロード、最大10日間保存、1URLあたりダウンロード最大10回、受信URL1件あたり受信最大10回、アクティブURL30件まで、操作ログ保存90日です。</p>
           </article>
           <article class="faq-card">
             <h3>ファイル受信URLとは何ですか？</h3>

@@ -1091,13 +1091,16 @@ h2 {
   box-shadow: 0 10px 28px rgba(33, 37, 41, 0.08);
 }
 
+.screen-card picture {
+  display: block;
+  background: #fff;
+}
+
 .screen-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  object-position: top left;
-  background: #eef3f8;
+  height: auto;
+  background: #fff;
 }
 
 .screen-card figcaption {
@@ -1277,10 +1280,6 @@ h2 {
 
   .screen-section {
     padding: 26px 0;
-  }
-
-  .screen-card img {
-    aspect-ratio: 4 / 3;
   }
 
   .security-band {
