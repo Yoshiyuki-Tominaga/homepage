@@ -236,8 +236,8 @@ p {
 h1 {
   margin-bottom: 22px;
   color: var(--navy);
-  font-size: clamp(2.35rem, 5vw, 4.75rem);
-  line-height: 1.13;
+  font-size: clamp(2rem, 3.35vw, 3.35rem);
+  line-height: 1.22;
   letter-spacing: -0.05em;
 }
 
@@ -1253,7 +1253,7 @@ h2 {
   }
 
   h1 {
-    font-size: 2.45rem;
+    font-size: 2rem;
   }
 
   .hero-actions {
